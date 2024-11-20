@@ -10,7 +10,7 @@ const ProductCard = ({ product, removeProduct }) => {
       <img src={product.image} alt={product.name} />
       <h2>{product.name}</h2>
       <p>{product.description}</p>
-      <p>{product.price}</p>
+      <p>₹ {product.price}</p>
       <button onClick={handleRemove} className="remove-button">
         Remove
       </button>
